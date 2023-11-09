@@ -1,148 +1,143 @@
-h1 {color: black;}
-
-h2{color: red;}
-
-*{margin: 0%;
-padding: 0%;}
-
-body{background-color: rgb(255, 255, 255);}
-
-
-header{border-bottom: 1px solid black;
-text-align: center;
-padding: 10px 20px;
-background-color: black;
+h1 {
+  color: black;
 }
 
-.logo {width: 150px;}
+h2 {
+  color: red;
+}
 
-nav ul li { list-style: none;
-display:inline-block;
-margin: 0 10px;}
+* {
+  margin: 0%;
+  padding: 0%;
+}
 
-a{ text-decoration: none;
-text-transform: uppercase;
-font-weight: bold;
-color:white;}
+body {
+  background-color: rgb(255, 255, 255);
+}
 
-main{
-    margin: 20px;
-    padding: 20px;
+header {
+  border-bottom: 1px solid rgb(5, 5, 5);
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #17202A;
+}
+
+.logo {
+  width: 150px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #CB4335;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #CB4335;
+}
+
+main {
+  margin: 20px;
+  padding: 20px;
 }
 
 h1,
-h2{
-    text-align: center;
-    text-decoration: underline;
-    margin: 20px 0px;
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  margin: 20px 0px;
 }
-
-footer{
-    margin: 20px;
-    padding: 20px;
-    border: top 1px solid rgb(255, 255, 255) ;
-    text-align: center ; 
-    color: white;
-    background-color: black;
-    
-    }
-
-
-.contenedorgaleria{
-    margin: 20px; 
-    border: 10px solid #333;
-    border-radius: 0%;
-
-}
-    
-
-.imagenes{
-display:center
-}
-
-
-.contenedorgaleria{
-    background-color: #333
-    color #fff;
-    text-align: center;
-    padding: 10px;
-    font-weight: bold;
-    font-size: 18px;
-    text-transform: uppercase;
-    
-}
-
-iframe{
-    display: block;
-    margin: auto;
-}
-
-form{
-    margin-top: 20px;
-}
-
-label{
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: black;
-    }
-
-
-input [type= "text"]
-textarea{
-    display: block;
-    width: 100px;
-    padding: 10px;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-
-.formulario {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 18px;
-    cursor: pointer;
-    margin-top: 10px;
-}
-
 
 /*GRID*/
-
 .item {
-    background-color: black;
-    border: 2px solid red;
-    color: white;
-}
-
-
-.item {
-    font-size: 40px;
-   font-weight: bold;
-   text-align: center;
-   text-transform: uppercase; 
-   
+  background-color: #17202A;
+  border: 2px solid #CB4335;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /*contenedor padre*/
 .gridpadre {
-    display: grid;
-grid-template-columns: 50vw;
-justify-content: center;
+  display: grid;
+  grid-template-columns: 50vw;
+  justify-content: center;
 }
 
+/*Banner*/
+.BannerContenido p {
+  font-size: 2.5rem;
+}
 
-/* lo hacemos responsive: */
-/*768px hasta 1023px*/
+iframe {
+  display: block;
+  margin: auto;
+}
 
+form {
+  margin-top: 20px;
+}
 
-    /*Banner*/
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: black;
+}
 
-    .BannerContenido p {
-        font-size: 2.5rem;
-    }
+input [type=text] textarea {
+  display: block;
+  width: 100px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.formulario {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.contenedorgaleria {
+  margin: 20px;
+  border: 10px solid #17202A;
+  border-radius: 0%;
+}
+
+.imagenes {
+  display: center;
+}
+
+.contenedorgaleria {
+  background-color: #CB4335;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+footer {
+  margin: 20px;
+  padding: 20px;
+  border: top 1px solid rgb(255, 255, 255);
+  text-align: center;
+  color: white;
+  background-color: #17202A;
+}
+
+/*# sourceMappingURL=estilo.css.map */
