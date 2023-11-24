@@ -3,7 +3,11 @@ h1 {
 }
 
 h2 {
-  color: red;
+  color: #CB4335;
+}
+
+h3 {
+  color: #CB4335;
 }
 
 * {
@@ -20,16 +24,22 @@ header {
   text-align: center;
   padding: 10px 20px;
   background-color: #17202A;
+  height: auto;
 }
 
 .logo {
   width: 150px;
 }
 
+
+.logosredes {
+  width: 120px;
+}
+
 nav ul li {
   list-style: none;
   display: inline-block;
-  margin: 0 10px;
+  margin: 35px;
 }
 
 a {
@@ -46,7 +56,8 @@ main {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   text-align: center;
   text-decoration: underline;
   margin: 20px 0px;
@@ -57,7 +68,7 @@ h2 {
   background-color: #17202A;
   border: 2px solid #CB4335;
   color: white;
-  font-size: 40px;
+  font-size: 100%;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
@@ -68,10 +79,11 @@ h2 {
   display: grid;
   grid-template-columns: 50vw;
   justify-content: center;
+  box-sizing: border-box;
 }
 
 /*Banner*/
-.BannerContenido p {
+.bannerContenido p {
   font-size: 2.5rem;
 }
 
@@ -82,6 +94,9 @@ iframe {
 
 form {
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 label {
@@ -89,6 +104,11 @@ label {
   font-weight: bold;
   margin-bottom: 5px;
   color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 input [type=text] textarea {
@@ -138,6 +158,30 @@ footer {
   text-align: center;
   color: white;
   background-color: #17202A;
+}
+
+section {
+  display: flex;
+  max-width: 1800px;
+  height: 530px;
+  box-sizing: border-box;
+}
+
+section img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5s ease;
+  box-sizing: border-box;
+}
+
+section img:hover {
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+  box-sizing: border-box;
 }
 
 /*# sourceMappingURL=estilo.css.map */
